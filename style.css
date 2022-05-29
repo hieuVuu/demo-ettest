@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: gray;
+    -webkit-user-select: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    color: #ff5126;
+    font-size: 44px;
+}
+
+.btn-showmore {
+    border: none;
+    background-color: #ff5126;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 3px;
+    box-shadow: 2px 1px #2e2e2e;
+    cursor: pointer;
+}
+
+.container {
+    margin-bottom: 40px;
+}
+
+.custom-landingPage {
+    height: 100vh;
+    background: url('./resources/img/bg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.header .heading {
+    margin-bottom: 10px;
+}
+
+.header .line {
+    margin-bottom: 16px;
+}
+
+.line {
+    width: 40px;
+    height: 2px;
+    background-color: #ff5126;
+    margin: 0 auto;
+}
+
+#list-location {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    align-items: center;
+    width: 780px;
+}
+
+#list-location .list-location--item img {
+    width: 200px;
+    height: 200px;
+}
+
+#list-location .list-location--item {
+    width: 200px;
+    height: 340px;
+    border: 1px solid #bbb9b9;
+    padding: 16px;
+    background-color: #ffff;
+    border-radius: 2px;
+}
+
+#list-location .list-location--item .title-location {
+    font-size: 16px;
+    margin: 12px 0;
+}
+
+#list-location .list-location--item .descriptions-location {
+    line-height: 20px;
+}
+
+
+/* Problem02 */
+
+.heading2 {
+    color: dodgerblue;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.generator-app {
+    color: rgb(5, 4, 4)!important;
+    min-height: 150px;
+    max-width: 90%;
+    min-width: 400px;
+    max-height: 100%;
+    border: 2px solid tomato;
+    padding: 24px;
+    border-radius: 5px;
+}
+
+.user-interactive {
+    display: flex;
+    margin-bottom: 24px;
+    justify-content: space-between;
+}
+
+.user-interactive>input {
+    width: 200px;
+    outline: none;
+    padding: 2px 4px;
+}
+
+.length,
+.result {
+    font-weight: bold;
+}
+
+#result {
+    max-width: 100px;
+    word-wrap: break-word;
+}
+
+#btn-generate {
+    padding: 2px 6px;
+}
